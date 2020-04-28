@@ -1,5 +1,5 @@
 //This program prompts the user to enter a number, checks if that number is greater, less or equal to my age (20) and prints that information to the screen.
-//Software Development Project - Ana Vieira, 2020.04.28
+//Software Development Project - Ana Vieira, 2020.04.25
 
 
 import java.util.Scanner;
@@ -10,7 +10,10 @@ public class Exercise3 {
 
 		Scanner input = new Scanner(System.in);
 		int num = 0;
-		int age = 20; //My age.
+      		int age = 20; //My age.
+        
+		System.out.println("Running Exercise 3.");
+		System.out.println();
 
 		//Prompt for Input
 		System.out.print("Enter a number: ");
@@ -25,8 +28,11 @@ public class Exercise3 {
 			System.out.println("The number entered is less than my age.");
 		} else {
 			System.out.println("The number entered matches my age!");
-		}
-    
+       		}
+        
+		System.out.println();
+		Index.main(null); //Presents the menu again.
 	}
+
 
 }
