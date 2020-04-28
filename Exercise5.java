@@ -1,4 +1,4 @@
-//This program uses a loop to calculate the sum, product and average value of the values contained in a certain array, and prints those results to the screen.
+//This program uses a loop to calculate the sum, product and average value of the values contained in a certain array, printing those results to the screen.
 //Software Development Project - Ana Vieira, 2020.04.28
 
 import java.util.Scanner;
@@ -13,6 +13,9 @@ public class Exercise5 {
         double average = 0;
         int product = 1;
 
+        System.out.println("Running Exercise 5.");
+        System.out.println();
+
         for (int i = 0; i < x.length; i++) {
             sum = sum + x[i];
             product = product * x[i];
@@ -25,6 +28,8 @@ public class Exercise5 {
         System.out.println("The product of the values is: " + product);
         System.out.println("The average of the values is: " + average);
        
+        System.out.println();
+        Index.main(null); //Presents the menu again.
 	}
 
 
