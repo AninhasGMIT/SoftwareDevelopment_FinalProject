@@ -9,6 +9,9 @@ public class Exercise7 {
 
         int [] x = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         Exercise7 m = new Exercise7();
+
+        System.out.println("Running Exercise 7.");
+        System.out.println();
         
         //Print 1st and last numbers to the screen.
         System.out.println("First value: " + x[0]);
@@ -25,10 +28,12 @@ public class Exercise7 {
             System.out.println(x[i]);
         }
 
+        System.out.println();
+        Index.main(null); //Presents the menu again.
+
 	}
 
     public int [] reorganize(int [] numbers){
-      //Method that reorganizes the elements of an array
         Random rnd = new Random ();
         
         for (int i = numbers.length -1; i >= 0; i--) {
