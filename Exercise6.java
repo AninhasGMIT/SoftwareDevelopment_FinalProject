@@ -14,6 +14,9 @@ public class Exercise6 {
         int col = 0;
         int cols = 1;
 
+        System.out.println("Running Exercise 6.");
+        System.out.println();
+
         //Input 
         System.out.print("Enter a symbol: ");
         symbol = input.next().charAt(0);
@@ -33,7 +36,10 @@ public class Exercise6 {
 			System.out.println();
 			cols = 1;
 			rows++;
-		}
+        }
+        
+        System.out.println();
+        Index.main(null); //Presents the menu again.
 	}
 
 
