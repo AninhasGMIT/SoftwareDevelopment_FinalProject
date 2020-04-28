@@ -9,11 +9,16 @@ public class Exercise1 {
 		String name = "Mary";
 		int age = 20;
 		double weight = 65.48;
-		String favColor = "red";
+        String favColor = "red";
+        
+        System.out.println("Running Exercise 1.");
+        System.out.println();
 
 		//Statement using the variables and \n to print it over 3 lines.
 		System.out.println(name + " is " + age + " years old.\nShe weighs " + weight + " kilograms.\nHer favourite colour is " + favColor + ".");
 
+        System.out.println();
+        Index.main(null); //Presents the menu again.
 	}
 
 
